@@ -8,7 +8,7 @@ var SMTP_USER = process.env.SMTP_USER;
 var SMTP_PASS = process.env.SMTP_PASSWORD || process.env.SMTP_PASS;
 var SEND_ID = ((process.env.SEND_ID || '').toLowerCase() === 'true');
 
-var MOCK_DOMAIN = process.env.MOCK_DOMMAIN || 'flowroute.com';
+var MOCK_DOMAIN = process.env.MOCK_DOMAIN || 'flowroute.com';
 var TO_NAME = process.env.TO_NAME;
 var TO_EMAIL = process.env.TO_EMAIL;
 var TO_DOMAIN = process.env.TO_DOMAIN;
